@@ -1,13 +1,13 @@
 {
-  "name": "material-next-ts",
-  "version": "5.0.0",
+  "name": "qr-code-component-main",
+  "description": "QR code component challenge on Frontend Mentor",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/cache": "latest",
