@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/delaguilaluis/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://delaguilaluis.com/qr-code-component-main)
+- Solution URL: https://github.com/delaguilaluis/qr-code-component-main
+- Live Site URL: https://delaguilaluis.com/qr-code-component-main
 
 ## My process
 
@@ -47,11 +47,17 @@ Next.js and Material UI, I based my project on [this example](https://github.com
 - How to define a global stylesheet for Next.js projects
 - How to customize MUI themes
 - How to define custom styles for MUI components with the `sx` property
+- How to deploy a static Next.js app
 
 ### Continued development
 
 - Areas that I want to continue be focusing on in future projects:
   - Theme customization to ease heavy changes in larger codebases
+
+### Useful resources
+
+- [Deploying Next.js to GitHub Pages](https://github.com/vercel/next.js/blob/canary/examples/github-pages)
+- [Deploying static Next.js sites](https://nextjs.org/docs/app/building-your-application/deploying/static-exports)
 
 ## Author
 
