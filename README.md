@@ -53,6 +53,8 @@ Next.js and Material UI, I based my project on [this example](https://github.com
 
 - Areas that I want to continue be focusing on in future projects:
   - Theme customization to ease heavy changes in larger codebases
+- Seems like this template still uses `_app` and `_document` (see
+  [how to migrate](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#migrating-_documentjs-and-_appjs))
 
 ### Useful resources
 
