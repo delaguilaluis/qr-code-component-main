@@ -48,6 +48,7 @@ Next.js and Material UI, I based my project on [this example](https://github.com
 - How to customize MUI themes
 - How to define custom styles for MUI components with the `sx` property
 - How to deploy a static Next.js app
+- How to set up favicons in Next.js
 
 ### Continued development
 
