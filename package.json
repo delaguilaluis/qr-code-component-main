@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "predeploy": "git checkout gh-pages",
-    "deploy": "next build && touch out/.nojekyll && git add -f out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin",
+    "predeploy": "next build && git checkout gh-pages",
+    "deploy": "touch out/.nojekyll && git add -f out/ && git commit -m \"Deploy\" && git push",
     "postdeploy": "git checkout -",
     "start": "next start",
     "lint": "next lint"
