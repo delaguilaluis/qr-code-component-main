@@ -1,44 +1,60 @@
-# Material UI - Next.js example in TypeScript
+# Frontend Mentor - QR code component solution
 
-## How to use
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
+## Table of contents
 
-<!-- #default-branch-switch -->
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-```sh
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/material-next-ts
-cd material-next-ts
-```
+## Overview
 
-Install it and run:
+### Screenshot
 
-```sh
-npm install
-npm run dev
-```
+<img src="screenshot.png" alt="screenshot" width="375"/>
 
-or:
+### Links
 
-<!-- #default-branch-switch -->
+- Solution URL: [Add solution URL here](https://github.com/delaguilaluis/qr-code-component-main)
+- Live Site URL: [Add live site URL here](https://delaguilaluis.com/qr-code-component-main)
 
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/material-next-ts)
+## My process
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/material-next-ts)
+### Built with
 
-## The idea behind the example
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- TypeScript
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Material UI](https://mui.com/) - Design System
 
-The project uses [Next.js](https://github.com/vercel/next.js), which is a framework for server-rendered React apps.
-It includes `@mui/material` and its peer dependencies, including [Emotion](https://emotion.sh/docs/introduction), the default style engine in Material UI v5. If you prefer, you can [use styled-components instead](https://mui.com/material-ui/guides/interoperability/#styled-components).
+### What I learned
 
-## The link component
+To have a proer guidance on how to do things the best way while using both
+Next.js and Material UI, I based my project on [this example](https://github.com/mui/material-ui/tree/master/examples/material-next-ts). From which I learned:
 
-The [example folder](https://github.com/mui/material-ui/tree/HEAD/examples/material-next-ts) provides an adapter for the use of [Next.js's Link component](https://nextjs.org/docs/api-reference/next/link) with MUI.
-More information [in the documentation](https://mui.com/material-ui/guides/routing/#next-js).
+- The basic structure of a Next.js project
+- They way Next.js allows to customize meta tags in the page head
+- How to define a global stylesheet for Next.js projects
+- How to customize MUI themes
+- How to define custom styles for MUI components with the `sx` property
 
-## What's next?
+### Continued development
 
-<!-- #default-branch-switch -->
+- Areas that I want to continue be focusing on in future projects:
+  - Theme customization to ease heavy changes in larger codebases
 
-You now have a working example project.
-You can head back to the documentation and continue by browsing the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+## Author
+
+- Website - [Luis Del Águila](https://delaguilaluis.com)
+- Frontend Mentor - [@delaguilaluis](https://www.frontendmentor.io/profile/delaguilaluis)
+- Mastodon - [@delaguilaluis](https://hachyderm.io/@delaguilaluis)

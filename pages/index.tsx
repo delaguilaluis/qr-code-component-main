@@ -12,7 +12,7 @@ export default function Home() {
     <Container maxWidth="lg">
       <Box
         sx={{
-          my: 4,
+          my: 12,
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
