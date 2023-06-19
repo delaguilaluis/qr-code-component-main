@@ -9,10 +9,18 @@ import { CardMedia } from "@mui/material";
 
 export default function Home() {
   return (
-    <Container maxWidth="lg">
+    <Container
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+      }}
+      maxWidth="lg"
+    >
       <Box
         sx={{
-          my: 12,
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
@@ -25,12 +33,12 @@ export default function Home() {
               sx={{ borderRadius: 3 }}
               component="img"
               image="image-qr-code.png"
-              alt="QR Code"
+              alt="QR code to frontendMentor.io"
             ></CardMedia>
             <Typography
               sx={{ my: 3, paddingX: 2, fontSize: 24, fontWeight: 700 }}
               variant="h1"
-              component="div"
+              component="h1"
               align="center"
             >
               Improve your front-end skills by building projects
